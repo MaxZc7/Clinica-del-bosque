@@ -1,7 +1,5 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 function Contact() {
   return (
@@ -17,7 +15,6 @@ function Contact() {
           <h3 className="text-4xl p-2 text-green-900">Contacto</h3>
           <p>011 4523-7783</p>
           <div className="hover:text-green-600 m-1 text-green-900">
-            <FontAwesomeIcon icon={faWhatsapp} />
             <a
               className="text-lg m-1 "
               href="https://web.whatsapp.com/"
