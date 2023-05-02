@@ -7,7 +7,7 @@ function Hero() {
       <div className="mt-10 flex justify-center mx-auto">
         <img src={pic1} className="rounded-3xl "></img>
       </div>
-      <div className="flex bg-gray-100 items-center text-center h-[55vh] md:h-[40%] mx-auto mt-16 ">
+      <div className="flex bg-gray-100 items-center text-center h-[35vh] md:h-[40%] mx-auto mt-[40%] md:mt-16 ">
         <div className=" w-[33%] ">
           <h1 className="md:text-3xl text-lg font-light py-3">Pedir turno</h1>
           <p className=" md:text-lg px-1">+011 4627-8822</p>
